@@ -1,6 +1,6 @@
 # Meta
 
-**TODO: Add description**
+**TODO: Reads Elixir data structure from file (Keyword List) as string and converts to Elixir data**
 
 ## Installation
 
