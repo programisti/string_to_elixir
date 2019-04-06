@@ -2,7 +2,7 @@ defmodule StringToElixir.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :elixir_to_string,
+    [app: :string_to_elixir,
      version: "0.1.1",
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
