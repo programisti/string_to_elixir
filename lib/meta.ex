@@ -1,7 +1,6 @@
-defmodule Meta do
-  def run do
-    content = File.read! "ba"
-    Code.compile_string("defmodule BAConfig do def get_config do #{content} end end")
-    BAConfig.get_config
+defmodule StringToElixir do
+  def run(filename, modulename, function) do
+    content = File.read! filename
+    Code.compile_string("defmodule #{modulename} do def #{function} do #{content} end end")
   end
 end

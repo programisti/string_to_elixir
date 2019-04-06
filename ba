@@ -1,5 +1,5 @@
 [
-  ba_config: [
-    label: "BA"
+  my_config: [
+    key_value: "BA"
   ]
 ]

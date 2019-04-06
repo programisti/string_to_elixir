@@ -1,9 +1,9 @@
-defmodule Meta.Mixfile do
+defmodule StringToElixir.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :meta,
-     version: "0.1.0",
+    [app: :elixir_to_string,
+     version: "0.1.1",
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
