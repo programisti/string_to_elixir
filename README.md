@@ -1,6 +1,6 @@
 # Meta
 
-**TODO: Reads Elixir data structure from file (for example Keyword List) as string and converts to Elixir data**
+StringToElixir Reads Elixir data structure from file (for example Keyword List) as string and converts to Elixir data**
 
 ## Installation
 
