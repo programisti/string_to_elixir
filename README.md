@@ -23,5 +23,5 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
   ```
   First parameter is a file name, second Module name, third function name
 ```elixir
-    StringToElixir("/home/zaali/qwe.txt", MyModule, func_name)
-    MyModule.func_name == [my_config: [key_value: "BA"]]
+    StringToElixir("/home/zaali/qwe.txt", MyNewUndefinedModule, func_name)
+    MyNewUndefinedModule.func_name == [my_config: [key_value: "BA"]]
